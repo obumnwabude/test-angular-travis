@@ -2,7 +2,7 @@ const config = require('./protractor.conf').config;
 
 config.capabilities = {
   browserName: 'chrome',
-  chromeOptions: {
+  'goog:chromeOptions': {
     args: ['--headless', '--no-sandbox', '--disable-gpu']
   }
 };
